@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #363636;
+    padding: 40px 20px;
+}
+
+
+main {
+    width: 375px;
+    background: #e0e0e0;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    color: #000000a5;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+select,
+input {
+    background: #ffffff;
+    border: solid 1px #6e7684;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    color: #555555;
+    margin-bottom: 10px;
+    appearance: none;
+    padding-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button {
+    background-color: #1d0067;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+
+}
+
+section {
+    border: 1px solid #6e7684;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 15px;
+    display: flex;
+    /* por padrão eles ficam um do lado do outro*/
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img {
+    margin: 15px 0;
+
+}
+
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.currency {
+    color: #2d2f31;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.currency-value,
+.currency-value-to-convert {
+    color: #6e7684;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 8px;
+}
